@@ -162,14 +162,14 @@
 				
 				VARIABLES.TotalArea = VARIABLES.MainFloorSF + VARIABLES.UpperFloorSF + VARIABLES.LowerFloorSF + VARIABLES.ThirdFloorSF;
 				
-				VARIABLES.SingleUseLicense = 2000;
-				if (VARIABLES.TotalArea > 1818) {
+				VARIABLES.SingleUseLicense = 2500;
+				if (VARIABLES.TotalArea > 2272) {
 					VARIABLES.SingleUseLicense = 1.1 * VARIABLES.TotalArea;
 				}
 				
 				VARIABLES.MultiUseLicense = 2.75 * VARIABLES.TotalArea;
 				if (VARIABLES.MultiUseLicense LT 5000) {
-					VARIABLES.MultiUseLicense = 5000;
+					VARIABLES.MultiUseLicense = 6250;
 				}
 				
 				VARIABLES.FullReverseSets = 0.1 * VARIABLES.TotalArea;

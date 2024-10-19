@@ -97,9 +97,9 @@
                 	<strong>Right Reading Reverse Plan</strong><br />		
 					The plan is reversed from the orientation shown on the Architects Northwest website.
 				</div>
-				<a href="/assets/pdf/ArchitectsNorthwestPriceSheet2023.pdf" target="_blank" title="Click to download Architects Northwest's Price List and Fee Schedule"><img src="/assets/images/2023-ANW-PRICE-REVS-04-21-2023.png" width="550" alt="Architects Northwest Pricing" border="0" /></a>
+				<a href="/assets/pdf/2024-ANW-PRICE-REVS-10-16-2024.pdf" target="_blank" title="Click to download Architects Northwest's Price List and Fee Schedule"><img src="/assets/images/2024-ANW-PRICE-REVS-10-16-2024.png" width="550" alt="Architects Northwest Pricing" border="0" /></a>
 				<ul type="square" style="margin-top:25px;">
-					<li><a href="/assets/pdf/ArchitectsNorthwestPriceSheet2023.pdf" class="planSpec" target="_blank" title="Click to download Architects Northwest's Price List and Fee Schedule">Download Price List and Fee Schedule</a></li>	
+					<li><a href="/assets/pdf/2024-ANW-PRICE-REVS-10-16-2024.pdf" class="planSpec" target="_blank" title="Click to download Architects Northwest's Price List and Fee Schedule">Download Price List and Fee Schedule</a></li>	
 				</ul>
               	<!---
                 <div style="margin-top:30px;text-align:center;">
