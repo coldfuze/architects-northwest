@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Stylesheet for CornerStoneDesigns.com and ArchitectsNW.com
+ * version 1.0
+ * Created by Leon O'Daniel - O'Daniel Designs
+ */
+
+/* ===== Global Styles ===== */
+html,  
+body {
+	background-color:white;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:14px;
+	color:black;
+	text-align:left;
+} 
+
+.descriptionHeading {
+	line-height:26px;
+	font-family:'Brush Script MT',arial,sans-serif;
+	font-size: 32px;
+	font-weight:bold;
+}

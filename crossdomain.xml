@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE cross-domain-policy SYSTEM "http://www.adobe.com/xml/dtds/cross-domain-policy.dtd">
+<cross-domain-policy> 
+	<allow-access-from domain="64.78.33.142" /> 
+	<allow-access-from domain="www.cornerstonedesignsdev.com" /> 
+	<allow-access-from domain="cornerstonedesignsdev.com" />
+	<allow-access-from domain="www.cornerstonedesigns.com" /> 
+	<allow-access-from domain="cornerstonedesigns.com" /> 
+	<allow-access-from domain="www.architectsnwdev.com" /> 
+	<allow-access-from domain="architectsnwdev.com" />
+	<allow-access-from domain="www.architectsnw.com" /> 
+	<allow-access-from domain="architectsnw.com" />
+</cross-domain-policy>

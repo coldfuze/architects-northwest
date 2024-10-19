@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ==== Quick Search ===== */
+#quickSearchContainer {
+	float:left;
+	background:url(/assets/images/QuickSearch.jpg) white no-repeat;	
+	width:184px;
+	height:498px;
+	margin-bottom:10px;
+}
+
+#qsTop {
+	float:right;
+	width:92px;
+	height:47px;
+}
+
+#qsContainer {
+	text-align:left;
+	margin-top:5px;
+	padding-left:5px;
+}
+
+h1.quickSearch2 {
+	font-size:12px;
+	text-decoration:underline;
+	margin-top:25px;
+	margin-bottom:0px;
+	color:white;
+	padding-left:13px;
+}
+h1.quickSearch3 {
+	font-size:12px;
+	margin-bottom:0px;
+	margin-top:10px;
+	color:white;
+}
+.quickSearchLeft {
+	float:left;
+	width:87px;
+}
+
+.quickSearchRight {
+	float:left;
+	width:87px;
+	margin-left:2px;
+}
+
+#qsPlanCount {
+	text-align:center;
+	font-size:14px;
+	margin-top:10px;
+	color:white;
+}
+
+#qsPlanSearchSubmit {
+	text-align:center;
+	font-size:14px;
+	margin-top:10px;
+	color:white;
+}
+
+#qsPlanSearchReset {
+	text-align:center;
+	font-size:14px;
+	margin-top:10px;
+	color:white;
+}
+
+.qsClearFloat {
+	clear:both;
+	margin:5px 0 0 0;
+	padding:0;
+}
+
+a#avs {
+	background: url(/assets/images/QuickSearchTopRight.jpg) no-repeat left top;
+	display:inline-block;
+	width:92px;
+	height:61px;
+}
+
+a#avs:HOVER {
+	background-position: left bottom;
+}
+
+h1.quickSearch {
+	font-size:12px;
+	margin-bottom:0px;
+	color:white;
+}
+
+/* ==== CF-AutoSuggest YUI Highlight Styles ===== */
+div.autosuggestcontainer li.yui-ac-highlight
+	{
+		background:#c9ccb9;
+	}
+
+div.autosuggestcontainer li.yui-ac-prehighlight
+{
+	background:#c9ccb9;
+}
+
+div.autosuggestcontainer 
+{	
+	position:absolute;
+	top:1.5em;
+	width:173px;
+	font-size:12px;
+}
+
+A.qs:link, A.qs:visited {
+	text-decoration:none;
+	font-weight:normal;
+	color:white;
+}
+
+A.qs:hover, A.qs:active {
+	text-decoration:none;
+	font-weight:normal;
+	color:#cf5535;	
+}

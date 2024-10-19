@@ -1,0 +1,18 @@
+Monday, May 9, 2016|8:32:33 AM CDT|http://www.cornerstonedesigns.com/designServices/neighborhoodDesigns.cfm?|onSessionStart|Event handler exception.
+Tuesday, May 10, 2016|7:44:20 AM CDT|http://www.architectsnw.com/designServices/neighborhoodDesigns.cfm?|onSessionStart|Event handler exception.
+Tuesday, May 10, 2016|7:44:20 AM CDT|http://www.architectsnw.com/designServices/multiFamilyDesigns.cfm?|onSessionStart|Event handler exception.
+Friday, May 13, 2016|2:43:16 AM CDT|http://www.architectsnw.com/designServices/neighborhoodDesigns.cfm?|onSessionStart|Event handler exception.
+Sunday, June 19, 2016|1:16:07 AM CDT|http://www.architectsnw.com/designServices/multiFamilyDesigns.cfm?|onSessionStart|Event handler exception.
+Sunday, June 19, 2016|1:16:07 AM CDT|http://www.architectsnw.com/designServices/customHomeDesigns.cfm?|onSessionStart|Event handler exception.
+Sunday, June 19, 2016|1:16:22 AM CDT|http://www.architectsnw.com/designServices/customHomeDesigns.cfm?|onSessionStart|Event handler exception.
+Sunday, June 19, 2016|1:16:22 AM CDT|http://www.architectsnw.com/designServices/multiFamilyDesigns.cfm?|onSessionStart|Event handler exception.
+Sunday, June 19, 2016|1:16:24 AM CDT|http://www.architectsnw.com/designServices/neighborhoodDesigns.cfm?|onSessionStart|Event handler exception.
+Wednesday, June 22, 2016|3:43:20 PM CDT|http://www.architectsnw.com/designServices/customHomeDesigns.cfm?||A timeout occurred while attempting to lock the session scope.
+Wednesday, June 22, 2016|3:43:19 PM CDT|http://www.architectsnw.com/designServices/customHomeDesigns.cfm?|onRequestStart|Event handler exception.
+Friday, September 9, 2016|7:43:28 AM CDT|http://www.architectsnw.com/designServices/neighborhoodDesigns.cfm?||Could not find the included template /assets/customtags/layout.cfm.
+Friday, September 9, 2016|7:52:01 AM CDT|http://www.cornerstonedesigns.com/designServices/multiFamilyDesigns.cfm?||Could not find the included template /assets/customtags/layout.cfm.
+Friday, November 18, 2016|7:55:19 AM CST|http://www.architectsnw.com/designServices/multiFamilyDesigns.cfm?||Could not find the included template /assets/customtags/layout.cfm.
+Friday, March 24, 2017|11:40:08 PM CDT|http://www.architectsnw.com/designServices/customHomeDesigns.cfm?|onSessionStart|Event handler exception.
+Tuesday, May 30, 2017|8:34:38 PM CDT|http://www.architectsnw.com/designServices/customHomeDesigns.cfm?||Error Executing Database Query.
+Monday, July 10, 2017|11:44:20 PM CDT|http://www.architectsnw.com/designServices/customHomeDesigns.cfm?|onSessionStart|Event handler exception.
+Saturday, September 30, 2017|11:08:35 PM CDT|http://www.architectsnw.com/designServices/customHomeDesigns.cfm?||Error Executing Database Query.

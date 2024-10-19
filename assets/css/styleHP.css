@@ -1,0 +1,676 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Home Page Stylesheet for CornerStoneDesigns.com and ArchitectsNW.com
+ * version 1.0
+ * Created by Leon O'Daniel - O'Daniel Designs
+ */
+
+/* ===== Global Styles ===== */
+html,  
+body {
+	height: 100%;
+	background:URL(/assets/images/HomePageBack.jpg) #4e5656 no-repeat;
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:14px;
+	color:black;
+	background-size: cover;
+}
+
+#wrapper {
+	margin:10px auto 0 auto;
+	width:941px;
+	padding:10px 10px 0 10px;
+	background-color:white;
+	position:relative;
+}
+
+#banner {
+	width:941px;
+	height: 140px;
+}
+
+#nav {
+	margin:10px 0;
+	width:941px !important;
+	height:44px;
+}
+
+.clearFloat {
+	clear:both;
+	margin:0;
+	padding:0;
+}
+
+#bodyWrapper {
+	background:url(/assets/images/commonBackground.gif)	repeat-y;
+	width:941px;
+	position:relative;
+	height:488px;
+}
+
+/* ==== Quick Search ===== */
+#quickSearch {
+	float:left;
+	background:url(/assets/images/QuickSearch.jpg) no-repeat;	
+	width:184px;
+	height:488px;
+}
+
+#qsTop {
+	float:right;
+	width:92px;
+	height:47px;
+}
+
+
+#qsContainer {
+	text-align:left;
+	margin-top:5px;
+	padding-left:5px;
+}
+
+h1.quickSearch2 {
+	font-size:12px;
+	text-decoration:underline;
+	margin-top:25px;
+	margin-bottom:0px;
+	color:white;
+	padding-left:13px;
+}
+h1.quickSearch3 {
+	font-size:12px;
+	margin-bottom:0px;
+	margin-top:10px;
+	color:white;
+}
+.quickSearchLeft {
+	float:left;
+	width:87px;
+}
+
+.quickSearchRight {
+	float:left;
+	width:87px;
+	margin-left:2px;
+}
+
+#qsPlanCount {
+	text-align:center;
+	font-size:14px;
+	margin-top:10px;
+	color:white;
+}
+
+#qsPlanSearchSubmit {
+	text-align:center;
+	font-size:14px;
+	margin-top:10px;
+	color:white;
+}
+
+#qsPlanSearchReset {
+	text-align:center;
+	font-size:14px;
+	margin-top:10px;
+	color:white;
+}
+
+.qsClearFloat {
+	clear:both;
+	margin:5px 0 0 0;
+	padding:0;
+}
+
+a#avs {
+	background: url(/assets/images/QuickSearchTopRight.jpg) no-repeat left top;
+	display:inline-block;
+	width:92px;
+	height:61px;
+}
+
+a#avs:HOVER {
+	background-position: left bottom;
+}
+
+h1.quickSearch {
+	font-size:12px;
+	margin-bottom:0px;
+	color:white;
+}
+
+/* ==== CF-AutoSuggest YUI Highlight Styles ===== */
+div.autosuggestcontainer li.yui-ac-highlight
+	{
+		background:#c9ccb9;
+	}
+
+div.autosuggestcontainer li.yui-ac-prehighlight
+{
+	background:#c9ccb9;
+}
+
+div.autosuggestcontainer 
+{	
+	position:absolute;
+	top:1.5em;
+	width:173px;
+	font-size:12px;
+}
+
+/* ===== Home Page Specific ===== */
+#hpAnimationWelcomeContainer {
+	float:left;
+	margin:0 10px;
+	background-color:#caccbb;
+	height:468px;
+	width:538px;
+	padding:10px;
+}
+
+#animation {
+	width:538px;
+	height:302px;
+	background-color:#caccbb;
+	poaition:relative;
+}
+
+#welcome {
+	width:518px;
+	height:137px;
+	background-color:white;
+	text-align:justify;
+	line-height:18px;
+	margin-top:10px;
+	padding:10px;
+}
+
+/* ===== New Plans ===== */
+#newPlanChatContainer {
+	float:left;
+	width:177px;
+	padding:10px 0;
+}
+
+#newPlan {
+	position:relative;
+	color:black;
+	height:291px;
+	margin:0 0 10px 4px;
+}
+
+/* ===== Middle Content ===== */
+#middleContent {
+	position:relative;
+	background:url(/assets/images/middleBackground.gif)	repeat-y;
+	width:941px;
+	height:642px;
+	margin-top:10px;
+}
+
+#awardWinningBestSellingContainer {
+	float:left;
+	width:184px;
+}
+
+#awardWinningPlan {
+	position:relative;
+	width:174px;
+	color:black;
+	background-color:#caccbb;
+	padding:10px 5px 0px 5px;
+	height:301px;
+	text-align:center;
+}
+
+#bestSellingPlan {
+	position:relative;
+	width:174px;
+	color:black;
+	background-color:#caccbb;
+	padding:10px 5px 0px 5px;
+	height:301px;
+	text-align:center;
+}
+
+.spacer {
+	width:184px;
+	height:10px;
+	background-color:white;	
+}
+
+#featuredPlans {
+	float:left;
+	margin-left:10px;
+	width:557px;
+}
+
+#architecturalStyles {
+	background-color:white;
+	width:559px;	
+}
+
+.architecturalStyleContainer {
+	float:left;
+	width:165px;
+	color:black;
+	background-color:#caccbb;
+	padding:7px;
+	text-align:center;
+	margin-right:10px;	
+}
+
+.architecturalStyleRightContainer {
+	float:left;
+	width:165px;
+	color:black;
+	background-color:#caccbb;
+	padding:7px;
+	text-align:center;	
+}
+
+#hpTextLinkContainer {
+	margin-top:10px;
+}
+
+.middleSpacer {
+	width:559px;
+	height:10px;
+	background-color:white;	
+}
+
+#hpPopularSearches {
+	padding:10px 10px 0 10px;
+	width:537px;
+	text-align:center;
+}
+
+#hpArchitecturalStyles {
+	margin:0;
+	padding:10px 10px 0 10px;
+	width:537px;
+	text-align:center;
+}
+
+#hpHousePlanCollections {
+	margin:0;
+	padding:10px 10px 0 10px;
+	width:537px;
+	text-align:center;
+}
+
+.hpSearch {
+	float:left;
+	width:165px;
+	color:black;
+	padding:7px 7px 7px 0px;
+	text-align:left;
+	font-size:12px;
+	margin-right:10px;
+}
+
+.hpSearchRight {
+	float:right;
+	width:165px;
+	color:black;
+	padding:7px 0px;
+	text-align:left;
+	font-size:12px;
+	margin-right:0px;
+}
+
+#hpSponsors {
+	float:right;
+	padding-top:10px;
+	width:177px;
+	height:625px;
+	text-align:center;
+}
+
+/* ===== Chat ===== */
+#chat {
+	padding:10px 0 0 0;
+	margin:0 0 0 2px;
+	width:177px;
+	height:167px;
+	background-color:white;
+}
+
+/* ===== Links ===== */
+A.brownLink {
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+
+A.brownLink:link, A.brownLink:visited {
+	text-decoration:none;
+	color:black;
+}
+
+A.brownLink:hover, A.brownLink:active {
+	text-decoration:none;
+	color:#06C;
+}
+
+A.brownLinkNoBold {
+	text-decoration:none;
+	color:black;
+}
+
+A.brownLinkNoBold:link, A.brownLinkNoBold:visited {
+	text-decoration:none;
+	color:black;
+}
+
+A.brownLinkNoBold:hover, A.brownLinkNoBold:active {
+	text-decoration:none;
+	color:#06C;
+}
+
+A.qs:link, A.qs:visited {
+	text-decoration:none;
+	font-weight:normal;
+	color:white;
+}
+
+A.qs:hover, A.qs:active {
+	text-decoration:none;
+	font-weight:normal;
+	color:#cf5535;	
+}
+
+A.planSpec {
+	text-decoration:none;
+	font-weight:normal;
+	color:black;
+}
+
+A.planSpec:link, A.planSpec:visited {
+	text-decoration:none;
+	font-weight:normal;
+	color:#06C;
+}
+
+A.planSpec:hover, A.planSpec:active {
+	text-decoration:none;
+	font-weight:normal;
+	color:#06C;	
+}
+
+/* ===== Recently Viewed Plans ===== */
+#recentlyViewedPlansContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:234px;
+	background-color:white;
+}
+
+#recentlyViewedPlansContainer2 {
+	position:relative;
+	margin:0 auto;
+	width:961px;
+	height:373px;
+	background-color:white;
+}
+
+#recentlyViewedPlansBar {
+	position:absolute;
+	left:10px;
+	top:0px;
+	width:941px;
+	height:44px;
+	color:white;
+	font-size:12px;
+	background-image:URL(/assets/images/greenBar.jpg);
+}
+
+#recentlyViewedPlansContentContainer {
+	position:absolute;
+	width:929px;
+	height:160px;
+	top:54px;
+	left:10px;
+	padding:0px 10px 10px 2px;
+	background-color:#caccbb;
+	text-align:left;
+}
+
+#recentlyViewedPlansContentContainer2 {
+	position:absolute;
+	width:929px;
+	height:300px;
+	top:54px;
+	left:10px;
+	padding:0px 10px 10px 2px;
+	background-color:#caccbb;
+	text-align:left;
+}
+
+.recentlyViewedPlansCarousel {
+	width:910px;
+	height:100px;
+}
+
+.recentlyViewedPlansCarousel2 {
+	width:910px;
+	height:260px;
+}
+
+.planSpecItemContainer2 {
+	font-size:12px;
+	width:150px;
+}
+
+
+.planSpecViewPlan {
+	margin:10px 0 0 0;
+	font-size:12px;
+}
+
+#planViewHistory {
+	position:absolute;
+	left:27px;
+	top:5px;
+	padding-top:11px;
+	height:23px;
+	width:155px;
+	font-weight:bold;
+	text-align:left;
+	border-right:thin solid white;
+}
+
+#recentlyViewedPlans {
+	position:absolute;
+	left:400px;
+	top:15px;
+	font-weight:bold;
+}
+
+.thisRecentlyViewedPlanContainer {
+	color:black;
+	background-color:#caccbb;
+	width:170px;
+	padding:5px 4.33px 5px 0;
+	height:301px;
+	margin:10px 10px 0 0;
+}
+
+
+#clearList {
+	position:absolute;
+	right:55px;
+	top:5px;
+	padding-top:11px;
+	padding-right:5px;
+	height:23px;
+	width:118px;
+	font-weight:bold;
+	text-align:right;
+	border-left:thin solid white;
+}
+
+/* ===== Credits Bar ===== */
+#creditsContainer {
+	position:relative;
+	margin:0 auto;
+	padding:10px;
+	width:941px;
+	height:44px;
+	background-color:white;
+}
+
+#creditsBar {
+	width:941px;
+	height:44px;
+	color:white;
+	font-size:12px;
+	background-image:URL(/assets/images/greenBar.jpg);
+}
+
+#copyright {
+	position:absolute;
+	left:6px;
+	top:18px;
+	height:33px;
+	width:187px;
+	font-weight:bold;
+	text-align:center;
+	border-right:thin solid white;
+}
+
+#email {
+	position:absolute;
+	left:370px;
+	top:25px;
+	font-weight:bold;
+}
+
+#emailANW {
+	position:absolute;
+	left:390px;
+	top:25px;
+	font-weight:bold;
+}
+
+#parentCompany {
+	position:absolute;
+	right:0px;
+	top:18px;
+	height:33px;
+	width:172px;
+	font-weight:bold;
+	text-align:center;
+	border-left:thin solid white;
+}
+
+#thisCompany {
+	position:absolute;
+	right:0px;
+	top:18px;
+	line-height:10px;
+	height:33px;
+	width:172px;
+	font-weight:bold;
+	text-align:center;
+	border-left:thin solid white;
+}
+
+A.greenBar {
+	text-decoration:none;
+	font-weight:normal;
+	color:white;
+}
+
+A.greenBar:link, A.greenBar:visited {
+	text-decoration:none;
+	font-weight:normal;
+	color:white;
+}
+
+A.greenBar:hover, A.greenBar:active {
+	text-decoration:underline;
+	font-weight:normal;
+	color:#cc9;	
+}
+
+A.greenBarBold {
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+}
+
+A.greenBarBold:link, A.greenBarBold:visited {
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+}
+
+A.greenBarBold:hover, A.greenBarBold:active {
+	text-decoration:underline;
+	font-weight:bold;
+	color:#cc9;	
+}
+
+/* ===== Site Map ===== */
+A.blackLink {
+	text-decoration:none;
+	font-weight:normal;
+	color:black;
+}
+
+A.blackLink:link, A.blackLink:visited {
+	text-decoration:none;
+	font-weight:normal;
+	color:#000;
+}
+
+A.blackLink:hover, A.blackLink:active {
+	text-decoration:none;
+	font-weight:normal;
+	color:#06C;	
+}
+
+/* ===== Credit Card Bar ===== */
+#creditCardBar {
+	position:relative;
+	margin:0 auto;
+	width:961px;
+	height:68px;
+	background-color:white;
+}
+
+
+
+/* ===== Site Map ===== */
+#siteMapContainer {
+	position:relative;
+	margin:0 auto;
+	width:961px;
+	height:190px;
+	line-height:25px;
+	font-size:12px;
+	background-color:white;
+	text-align:center;
+}
+
+.siteMap {
+	float:left;
+	width:180px;
+	padding-left:10px;
+	padding-top:10px;
+	height:165px;
+	text-align:left;
+}
+
+/* ===== Spacers ===== */
+#bottomSpacer {
+	position:relative;
+	margin:0 auto;
+	height:10px;
+	width:960px;
+}

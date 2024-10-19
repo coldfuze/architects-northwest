@@ -1,0 +1,1 @@
+<cfcomponent extends="PopularSearchGateway"></cfcomponent>

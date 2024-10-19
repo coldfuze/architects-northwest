@@ -1,0 +1,102 @@
+Tuesday, January 3, 2012|6:53:45 PM PST|http://intermedia.net/myaccount/default.cfm?<script>document.cookie=%22testxfpk=901;%22</script>||ScriptProtect error replacing insecure tag in the CGI scope.
+Tuesday, January 3, 2012|6:53:46 PM PST|http://intermedia.net/myaccount/default.cfm?<meta%20http-equiv=Set-Cookie%20content=%22testxfpk=901%22>||ScriptProtect error replacing insecure tag in the CGI scope.
+Friday, March 30, 2012|8:50:46 PM PDT|http://intermedia.net/myaccount/default.cfm?<script>document.cookie=%22testfgig=1951;%22</script>||ScriptProtect error replacing insecure tag in the CGI scope.
+Friday, March 30, 2012|8:50:47 PM PDT|http://intermedia.net/myaccount/default.cfm?<meta%20http-equiv=Set-Cookie%20content=%22testfgig=1951%22>||ScriptProtect error replacing insecure tag in the CGI scope.
+Thursday, May 24, 2012|12:55:03 PM PDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?page=2||Error Executing Database Query.
+Thursday, May 24, 2012|12:55:20 PM PDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?page=2||Error Executing Database Query.
+Wednesday, May 30, 2012|8:00:15 AM PDT|http://architectsnw.com/myAccount/mySavedPlans.cfm?delPlanId=823||The method deleteSavedPlan was not found in component D:\ftp\archnw\Htdocs\com\cornerstonedesigns\CustomerService.cfc.
+Wednesday, May 30, 2012|8:00:45 AM PDT|http://architectsnw.com/myAccount/mySavedPlans.cfm?delPlanId=823&reinit||Element SPI.PLANID is undefined in ARGUMENTS.
+Wednesday, May 30, 2012|8:01:00 AM PDT|http://architectsnw.com/myAccount/mySavedPlans.cfm?delPlanId=823||Element SPI.PLANID is undefined in ARGUMENTS.
+Wednesday, May 30, 2012|8:01:12 AM PDT|http://architectsnw.com/myAccount/mySavedPlans.cfm?delPlanId=823||Element SPI.PLANID is undefined in ARGUMENTS.
+Wednesday, May 30, 2012|8:04:22 AM PDT|http://architectsnw.com/myAccount/mySavedPlans.cfm?delPlanId=823||Invalid list index 0.
+Wednesday, November 28, 2012|10:31:58 PM PST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Thursday, November 29, 2012|10:58:19 AM PST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Thursday, November 29, 2012|10:59:18 AM PST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Thursday, November 29, 2012|11:01:30 AM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, December 2, 2012|5:37:40 AM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, December 2, 2012|5:37:57 AM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, December 2, 2012|5:39:05 AM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Wednesday, December 5, 2012|6:26:55 AM PST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Wednesday, December 5, 2012|10:17:46 AM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Wednesday, December 5, 2012|10:18:41 AM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Friday, December 7, 2012|12:32:39 AM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Friday, December 7, 2012|12:33:01 AM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Friday, December 7, 2012|12:36:26 AM PST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Friday, December 7, 2012|4:20:45 AM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Friday, December 7, 2012|3:29:42 PM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, December 9, 2012|5:45:42 PM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, December 9, 2012|6:07:18 PM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, December 23, 2012|5:33:31 AM PST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Sunday, December 23, 2012|5:34:12 AM PST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Monday, December 24, 2012|8:42:31 PM PST|http://www.cornerstonedesigns.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Monday, December 24, 2012|8:44:05 PM PST|http://www.cornerstonedesigns.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Monday, December 24, 2012|8:46:06 PM PST|http://www.cornerstonedesigns.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Friday, December 28, 2012|5:39:24 AM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Friday, December 28, 2012|5:41:54 AM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Friday, December 28, 2012|12:13:08 PM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Friday, December 28, 2012|12:13:57 PM PST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Friday, December 28, 2012|12:21:16 PM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Saturday, December 29, 2012|11:07:46 PM PST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Saturday, December 29, 2012|11:10:45 PM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, December 30, 2012|8:16:08 PM PST|http://intermedia.net/myaccount/default.cfm?<script>document.cookie=%22testgpij=5979;%22</script>||ScriptProtect error replacing insecure tag in the CGI scope.
+Sunday, December 30, 2012|8:16:09 PM PST|http://intermedia.net/myaccount/default.cfm?<meta%20http-equiv=Set-Cookie%20content=%22testgpij=5979%22>||ScriptProtect error replacing insecure tag in the CGI scope.
+Sunday, December 30, 2012|8:17:36 PM PST|http://intermedia.net/myaccount/default.cfm?<script>document.cookie=%22testqlab=2626;%22</script>||ScriptProtect error replacing insecure tag in the CGI scope.
+Sunday, December 30, 2012|8:17:38 PM PST|http://intermedia.net/myaccount/default.cfm?<meta%20http-equiv=Set-Cookie%20content=%22testqlab=2626%22>||ScriptProtect error replacing insecure tag in the CGI scope.
+Sunday, December 30, 2012|8:19:30 PM PST|http://intermedia.net/myaccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, December 30, 2012|8:19:32 PM PST|http://intermedia.net/myaccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, December 30, 2012|8:30:01 PM PST|http://intermedia.net/myaccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, December 30, 2012|8:30:03 PM PST|http://intermedia.net/myaccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, December 30, 2012|8:53:41 PM PST|http://intermedia.net/myaccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, December 30, 2012|8:53:43 PM PST|http://intermedia.net/myaccount/default.cfm?|onRequestStart|Event handler exception.
+Monday, December 31, 2012|8:14:37 AM PST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Tuesday, January 1, 2013|9:49:42 AM PST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Tuesday, January 1, 2013|10:34:03 AM PST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Friday, November 14, 2014|5:47:06 AM PST|http://www.cornerstonedesigns.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Tuesday, June 9, 2015|11:45:29 PM PDT|http://architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Tuesday, June 9, 2015|11:45:30 PM PDT|http://architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Tuesday, March 1, 2016|12:09:26 AM CST|http://www.architectsnw.com/myAccount/updateAccount.cfm?||Error Executing Database Query.
+Tuesday, March 1, 2016|10:29:11 PM CST|http://www.architectsnw.com/myAccount/updateAccount.cfm?||Error Executing Database Query.
+Tuesday, March 1, 2016|10:29:29 PM CST|http://www.architectsnw.com/myAccount/updateAccount.cfm?||Error Executing Database Query.
+Tuesday, March 1, 2016|10:30:02 PM CST|http://www.architectsnw.com/myAccount/updateAccount.cfm?||Error Executing Database Query.
+Monday, March 14, 2016|5:05:25 PM CDT|http://www.architectsnw.com/myAccount/updateAccount.cfm?||Error Executing Database Query.
+Friday, March 18, 2016|1:37:43 PM CDT|http://www.cornerstonedesigns.com/myAccount/updateAccount.cfm?||Error Executing Database Query.
+Saturday, March 26, 2016|6:23:51 PM CDT|http://www.architectsnw.com/myAccount/updateAccount.cfm?||Error Executing Database Query.
+Saturday, March 26, 2016|6:24:09 PM CDT|http://www.architectsnw.com/myAccount/updateAccount.cfm?||Error Executing Database Query.
+Thursday, March 31, 2016|5:23:34 PM CDT|http://www.cornerstonedesigns.com/myAccount/default.cfm?logout||A timeout occurred while attempting to lock the session scope.
+Saturday, April 2, 2016|8:03:11 PM CDT|http://www.architectsnw.com/myAccount/updateAccount.cfm?||Error Executing Database Query.
+Saturday, April 2, 2016|8:03:17 PM CDT|http://www.architectsnw.com/myAccount/updateAccount.cfm?||Error Executing Database Query.
+Saturday, April 2, 2016|8:03:31 PM CDT|http://www.architectsnw.com/myAccount/updateAccount.cfm?||Error Executing Database Query.
+Wednesday, April 6, 2016|12:13:31 PM CDT|http://www.architectsnw.com/myAccount/updateAccount.cfm?||Error Executing Database Query.
+Sunday, April 17, 2016|4:53:08 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?PlanType=5&squareFootageLow=3000&squareFootageHigh=3500&BedroomId=100&FullBathId=100||A timeout occurred while attempting to lock the session scope.
+Sunday, April 17, 2016|4:53:08 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?PlanType=5&squareFootageLow=0&squareFootageHigh=10001&BedroomId=100&FullBathId=100||A timeout occurred while attempting to lock the session scope.
+Sunday, April 17, 2016|4:53:09 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?PlanType=5&squareFootageLow=3000&squareFootageHigh=3500&BedroomId=100&FullBathId=100&planSearch=Begin+Search|onRequestStart|Event handler exception.
+Sunday, April 17, 2016|4:53:20 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?PlanType=3|onRequestStart|Event handler exception.
+Sunday, April 17, 2016|4:53:34 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?PlanType=3&squareFootageLow=3000&squareFootageHigh=3500&BedroomId=100&FullBathId=100|onRequestStart|Event handler exception.
+Sunday, April 17, 2016|4:53:36 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?PlanType=3&squareFootageLow=3000&squareFootageHigh=3500&BedroomId=100&FullBathId=100&planSearch=Begin+Search|onRequestStart|Event handler exception.
+Sunday, April 17, 2016|4:53:55 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?PlanType=3&squareFootageLow=3000&squareFootageHigh=3500&BedroomId=4&FullBathId=100|onRequestStart|Event handler exception.
+Sunday, April 17, 2016|4:53:58 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?PlanType=3&squareFootageLow=3000&squareFootageHigh=3500&BedroomId=3&FullBathId=100||A timeout occurred while attempting to lock the session scope.
+Monday, April 25, 2016|1:05:55 PM CDT|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Monday, April 25, 2016|1:05:55 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Monday, April 25, 2016|1:06:32 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Friday, May 13, 2016|5:17:13 AM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?PlanType=3&squareFootageLow=0&squareFootageHigh=10001&BedroomId=100&FullBathId=100|onRequestStart|Event handler exception.
+Friday, May 13, 2016|5:17:13 AM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?PlanType=1&squareFootageLow=0&squareFootageHigh=10001&BedroomId=100&FullBathId=100||A timeout occurred while attempting to lock the session scope.
+Friday, May 13, 2016|5:17:13 AM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?PlanType=5&squareFootageLow=0&squareFootageHigh=10001&BedroomId=100&FullBathId=100|onRequestStart|Event handler exception.
+Thursday, June 2, 2016|3:23:42 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?||A timeout occurred while attempting to lock the session scope.
+Thursday, June 2, 2016|3:23:46 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Tuesday, June 7, 2016|11:02:32 AM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?||A timeout occurred while attempting to lock the session scope.
+Monday, June 20, 2016|10:43:40 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Monday, June 20, 2016|10:43:48 PM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Thursday, October 27, 2016|4:11:40 AM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?reset=1|onSessionStart|Event handler exception.
+Sunday, November 13, 2016|11:29:12 PM CST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, November 13, 2016|11:29:13 PM CST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Sunday, November 13, 2016|11:29:12 PM CST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Sunday, November 13, 2016|11:29:10 PM CST|http://www.architectsnw.com/myAccount/default.cfm?logout|onRequestStart|Event handler exception.
+Sunday, November 13, 2016|11:29:59 PM CST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Saturday, February 4, 2017|8:04:59 PM CST|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Thursday, March 30, 2017|10:04:16 PM CDT|http://www.cornerstonedesigns.com/myAccount/mySavedPlans.cfm?|onRequestStart|Event handler exception.
+Friday, June 16, 2017|11:15:22 PM CDT|http://www.architectsnw.com/myAccount/default.cfm?|onRequestStart|Event handler exception.
+Friday, July 7, 2017|1:06:27 AM CDT|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?page=2||Error Executing Database Query.
+Friday, November 24, 2017|10:33:23 PM CST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?||Error Executing Database Query.
+Friday, November 24, 2017|10:33:28 PM CST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?||Error Executing Database Query.
+Friday, November 24, 2017|10:33:38 PM CST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?||Error Executing Database Query.
+Friday, November 24, 2017|10:34:44 PM CST|http://www.architectsnw.com/myAccount/mySavedPlans.cfm?||Error Executing Database Query.

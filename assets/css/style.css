@@ -1,0 +1,2248 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Stylesheet for CornerStoneDesigns.com and ArchitectsNW.com
+ * version 1.0
+ * Created by Leon O'Daniel - O'Daniel Designs
+ */
+
+/* ===== Global Styles ===== */
+html,  
+body {
+	height: 100%;
+	background:URL(/assets/images/HomePageBack.jpg) #4e5656 no-repeat;
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:14px;
+	color:black;
+	background-size: cover;
+}
+
+.clearFloat {
+	clear:both;
+	margin:0;
+	padding:0;
+}
+
+#inactivePlansContainer {
+	display:none;	
+}
+
+/* ===== Top and Bottom Spacers ===== */
+#topSpacer {
+	position:relative;
+	margin:0 auto;
+	height:10px;
+	width:960px;
+}
+
+#bottomSpacer {
+	position:relative;
+	margin:0 auto;
+	height:10px;
+	width:960px;
+}
+
+/* ===== Banner and Navigation ===== */
+#bannerNavContainer {
+	position:relative;
+	margin:0 auto;
+	background-color:white;
+	text-align:center;
+	width:960px;
+	height:214px;
+}
+
+#banner {
+	position:absolute;
+	width:941px;
+	height: 140px;
+	left:10px;
+	top:10px;
+}
+
+#nav {
+	position:absolute;
+	width: 941px;
+	height:44px;
+	left:0px;
+	top:150px;
+}
+
+#chat {
+	position:relative;
+	width:169px;	
+	height:193px;
+	text-align:center;
+}
+
+#chatAPS {
+	position:relative;
+	width:177px;	
+	height:164px;
+	text-align:center;
+	background-color:white;
+}
+
+#chatPS {
+	position:relative;
+	width:177px;	
+	height:167px;
+	text-align:center;
+	background-color:white;
+}
+
+#chatStandard {
+	position:relative;
+	width:169px;	
+	height:167px;
+	text-align:center;
+}
+
+
+/* ===== Home Page Styles ===== */
+#hpTopContentContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:498px;
+	background-color:white;
+}
+
+#hpAnimationWelcomeContainer {
+	position:absolute;
+	left:205px;
+	top:0px;
+	padding-top:10px;
+	background-color:#caccbb;
+	height:478px;
+	width:558px;
+}
+
+#newPlanChatContainer {
+	position:absolute;
+	right:10px;
+	top:0px;
+	width:177px;
+}
+
+.autoSuggestOver {
+	background-color:#DDECE1;
+	color:black;
+}
+.autoSuggestNormal {
+	color:black;	
+}
+
+#animation {
+	position:absolute;
+	left:0px;
+	top:10px;
+	width:538px;
+	height:302px;
+	background-color:#caccbb;
+}
+
+#welcome {
+	position:absolute;
+	left:10px;
+	top:322px;
+	width:538px;
+	width:517px;
+	height:137px;
+	min-height:137px;
+	padding:10px;
+	font-size:13px;
+	font-weight:bold;
+	background-color:white;
+	text-align:justify;
+	line-height:18px;
+}
+
+#newPlan {
+	position:relative;
+	width:177px;
+	color:black;
+	background-color:#caccbb;
+	padding-top:10px;
+	height:301px;
+	margin-bottom:10px;	
+}
+
+/* ===== Home Page Middle Content ===== */
+#hpMiddleContentContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:642px;
+	background-color:white;
+}
+
+#hpMiddleContentLeftContainer {
+	position:absolute;
+	left:10px;
+	top:0px;
+	width:174px;
+	height:642px;
+	text-align:left;
+	font-weight:normal;
+	color:black;
+}
+
+#awardWinningPlan {
+	position:relative;
+	width:174px;
+	color:black;
+	background-color:#caccbb;
+	padding:10px 5px 0px 5px;
+	height:301px;
+	text-align:center;
+}
+
+#bestSellingPlan {
+	position:relative;
+	width:174px;
+	color:black;
+	margin-top:10px;
+	background-color:#caccbb;
+	padding:10px 5px 0px 5px;
+	height:301px;
+	text-align:center;
+}
+
+#featuredPlans {
+	position:absolute;
+	left:204px;
+	top:0px;
+	width:557px;
+	background-color:white;
+}
+
+#hpPopularSearches {
+	position:absolute;
+	left:204px;
+	top:188px;
+	height:70px;
+	background-color:#caccbb;
+	padding:10px;
+	width:537px;
+	text-align:center;
+}
+
+#hpArchitecturalStyles {
+	position:absolute;
+	left:204px;
+	top:274px;
+	height:145px;
+	background-color:#caccbb;
+	padding:10px;
+	width:537px;
+	text-align:center;
+}
+
+#hpHousePlanCollections {
+	position:absolute;
+	left:204px;
+	top:439px;
+	height:173px;
+	background-color:#caccbb;
+	padding:10px;
+	width:537px;
+	text-align:center;
+}
+
+.hpSearch {
+	float:left;
+	width:165px;
+	color:black;
+	background-color:#caccbb;
+	padding:7px 7px 7px 0px;
+	text-align:left;
+	font-size:12px;
+	margin-right:10px;
+}
+
+.hpSearchRight {
+	float:right;
+	width:165px;
+	color:black;
+	background-color:#caccbb;
+	padding:7px 0px;
+	text-align:left;
+	font-size:12px;
+	margin-right:0px;
+}
+
+#hpSponsors {
+	position:absolute;
+	padding-top:7px;
+	right:10px;
+	top:0;
+	width:177px;
+	height:625px;
+	background-color:#caccbb;
+	text-align:center;
+}
+
+A.brownLink {
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+
+A.brownLink:link, A.brownLink:visited {
+	text-decoration:none;
+	color:black;
+}
+
+A.brownLink:hover, A.brownLink:active {
+	text-decoration:none;
+	color:#06C;
+}
+
+A.brownLinkNoBold {
+	text-decoration:none;
+	color:black;
+}
+
+A.brownLinkNoBold:link, A.brownLinkNoBold:visited {
+	text-decoration:none;
+	color:black;
+}
+
+A.brownLinkNoBold:hover, A.brownLinkNoBold:active {
+	text-decoration:none;
+	color:#06C;
+}
+
+
+/* ===== Recently Viewed Plans ===== */
+#recentlyViewedPlansContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:234px;
+	background-color:white;
+}
+
+#recentlyViewedPlansContainer2 {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:373px;
+	background-color:white;
+}
+
+#recentlyViewedPlansBar {
+	position:absolute;
+	left:10px;
+	top:0px;
+	width:941px;
+	height:44px;
+	color:white;
+	font-size:12px;
+	background-image:URL(/assets/images/greenBar.jpg);
+}
+
+#recentlyViewedPlansContentContainer {
+	position:absolute;
+	width:929px;
+	height:160px;
+	top:54px;
+	left:10px;
+	padding:0px 10px 10px 2px;
+	background-color:#caccbb;
+	text-align:left;
+}
+
+#recentlyViewedPlansContentContainer2 {
+	position:absolute;
+	width:929px;
+	height:300px;
+	top:54px;
+	left:10px;
+	padding:0px 10px 10px 2px;
+	background-color:#caccbb;
+	text-align:left;
+}
+
+.recentlyViewedPlansCarousel {
+	width:910px;
+	height:100px;
+}
+
+.recentlyViewedPlansCarousel2 {
+	width:910px;
+	height:260px;
+}
+
+
+#planViewHistory {
+	position:absolute;
+	left:27px;
+	top:5px;
+	padding-top:11px;
+	height:23px;
+	width:155px;
+	font-weight:bold;
+	text-align:left;
+	border-right:thin solid white;
+}
+
+#recentlyViewedPlans {
+	position:absolute;
+	left:400px;
+	top:15px;
+	font-weight:bold;
+}
+
+.thisRecentlyViewedPlanContainer {
+	color:black;
+	background-color:#caccbb;
+	width:170px;
+	padding:5px 4.33px 5px 0;
+	height:301px;
+	margin:10px 10px 0 0;
+}
+
+
+#clearList {
+	position:absolute;
+	right:55px;
+	top:5px;
+	padding-top:11px;
+	padding-right:5px;
+	height:23px;
+	width:118px;
+	font-weight:bold;
+	text-align:right;
+	border-left:thin solid white;
+}
+
+/* ===== Credits Bar ===== */
+#creditsContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:44px;
+	background-color:white;
+}
+
+#creditsBar {
+	position:absolute;
+	left:10px;
+	top:0px;
+	width:941px;
+	height:44px;
+	color:white;
+	font-size:12px;
+	background-image:URL(/assets/images/greenBar.jpg);
+}
+
+#copyright {
+	position:absolute;
+	left:0px;
+	top:7px;
+	height:33px;
+	width:187px;
+	font-weight:bold;
+	text-align:center;
+	border-right:thin solid white;
+}
+
+#email {
+	position:absolute;
+	left:370px;
+	top:15px;
+	font-weight:bold;
+}
+
+#emailANW {
+	position:absolute;
+	left:390px;
+	top:15px;
+	font-weight:bold;
+}
+
+#parentCompany {
+	position:absolute;
+	right:0px;
+	top:7px;
+	height:33px;
+	width:172px;
+	font-weight:bold;
+	text-align:center;
+	border-left:thin solid white;
+}
+
+#thisCompany {
+	position:absolute;
+	right:0px;
+	top:7px;
+	line-height:10px;
+	height:33px;
+	width:172px;
+	font-weight:bold;
+	text-align:center;
+	border-left:thin solid white;
+}
+
+A.greenBar {
+	text-decoration:none;
+	font-weight:normal;
+	color:white;
+}
+
+A.greenBar:link, A.greenBar:visited {
+	text-decoration:none;
+	font-weight:normal;
+	color:white;
+}
+
+A.greenBar:hover, A.greenBar:active {
+	text-decoration:underline;
+	font-weight:normal;
+	color:#cc9;	
+}
+
+A.greenBarBold {
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+}
+
+A.greenBarBold:link, A.greenBarBold:visited {
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+}
+
+A.greenBarBold:hover, A.greenBarBold:active {
+	text-decoration:underline;
+	font-weight:bold;
+	color:#cc9;	
+}
+
+/* ===== Credit Card Bar ===== */
+#creditCardBar {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:68px;
+}
+
+
+
+/* ===== Site Map ===== */
+#siteMapContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:190px;
+	line-height:25px;
+	font-size:12px;
+	background-color:white;
+	text-align:center;
+}
+
+.siteMap {
+	float:left;
+	width:180px;
+	padding-left:10px;
+	padding-top:10px;
+	height:165px;
+	text-align:left;
+}
+
+/* ===== Architectural Styles, Popular Searches, House Plan Collections ===== */
+#mainPlanStyleContainer {
+	position:relative;
+	margin:0 auto;
+	padding-bottom:2px;
+	width:960px;
+	height:1557px;
+	background-color:white;
+}
+
+#mainHousePlanCollectionContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:1747px;
+	background-color:white;
+}
+
+#planStyleContainer {
+	position:absolute;
+	left:205px;
+	top:0px;
+	padding:0px;
+}
+
+#titleBar {
+	position:relative;
+	width:557px;
+	height:30px;
+	padding-top:14px;
+	background-image:URL(/assets/images/titleGreenBar.jpg);
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+#titleBarPS {
+	position:relative;
+	width:557px;
+	height:30px;
+	padding-top:14px;
+	background-image:URL(/assets/images/titleGreenBar.jpg);
+	text-align:center;
+	color:white;
+	font-weight:bold;
+}
+
+h1.planStyleTitle {
+	text-align:center;
+	font-size:14px;
+}
+
+#buildingSponsors {
+	width:178px;
+	height:1034px;
+	background-color:#caccbb;
+	margin:10px 0;
+	padding:0;
+}
+
+#buildingProducts {
+	width:178px;
+	height:1014px;
+	background-color:#caccbb;
+	margin:10px 0;
+	padding:10px 0 0 0 ;
+}
+
+#buildingProductsHPC {
+	width:178px;
+	height:1230px;
+	background-color:#caccbb;
+	margin:10px 0;
+	padding:10px 0 0 0 ;
+}
+
+#buildingProductsPS {
+	width:178px;
+	height:1042px;
+	background-color:#caccbb;
+	margin:10px 0;
+	padding:10px 0 0 0 ;
+}
+
+
+/* ===== Advanced Plan Search Styles  ===== */
+#planSearchOptions {
+	position:relative;
+	width:538px;
+	text-align:left;	
+	padding:0 10px 10px 10px;
+	line-height:25px;
+}
+
+.greenTitleBar {
+	position:relative;
+	width:557px;
+	height:30px;
+	padding-top:14px;
+	background-image:URL(/assets/images/titleGreenBar.jpg);
+	text-align:center;
+	color:white;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.planSpecContainerLeft {
+	width:150px;
+	left:10px;
+	float:left;
+	height:20px;
+	margin-bottom:10px;
+	padding:15px 10px 10px 10px;
+	text-align:left;
+	background-color:#e6ebe7;
+}
+
+.planSpecContainerRight {
+	width:368px;
+	float:left;
+	height:20px;
+	margin-bottom:10px;
+	padding:15px 10px 10px 10px;
+	text-align:left;
+	background-color:#e6ebe7;	
+}
+
+.planSpecContainerLeft2L {
+	width:150px;
+	left:10px;
+	float:left;
+	height:30px;
+	margin-bottom:10px;
+	padding:5px 10px 10px 10px;
+	text-align:left;
+	background-color:#e6ebe7;
+}
+
+.planSpecContainerRight2L {
+	width:378px;
+	float:left;
+	height:20px;
+	margin-bottom:10px;
+	padding:15px 10px 10px 10px;
+	text-align:left;
+	background-color:#e6ebe7;	
+}
+
+.planSpecLeft {
+	width:140px;
+	left:10px;
+	float:left;
+	height:20px;
+	margin-bottom:10px;
+	padding:15px 10px 10px 10px;
+	text-align:left;
+}
+
+.planSpecCenter {
+	width:234px;
+	float:left;
+	height:25px;
+	margin-bottom:10px;
+	padding:10px 10px 10px 20px;
+	text-align:left;
+}
+
+.planSpecRight {
+	width:125px;
+	float:left;
+	height:25px;
+	margin-bottom:10px;
+	padding:10px 0px;
+	text-align:left;
+}
+
+A.planSpec {
+	text-decoration:none;
+	font-weight:normal;
+	color:black;
+}
+
+A.planSpec:link, A.planSpec:visited {
+	text-decoration:none;
+	font-weight:normal;
+	color:#06C;
+}
+
+A.planSpec:hover, A.planSpec:active {
+	text-decoration:none;
+	font-weight:normal;
+	color:#06C;	
+}
+
+A.planSpecNoWrap {
+	text-decoration:none;
+	font-weight:normal;
+	color:black;
+	white-space:nowrap;
+}
+
+A.planSpecNoWrap:link, A.planSpecNoWrap:visited {
+	text-decoration:none;
+	font-weight:normal;
+	color:#06C;
+	white-space:nowrap;
+}
+
+A.planSpecNoWrap:hover, A.planSpecNoWrap:active {
+	text-decoration:none;
+	font-weight:normal;
+	color:#06C;	
+	white-space:nowrap;
+}
+
+/* ===== Quick Search ===== */
+a#avs {
+	background: url(/assets/images/QuickSearchTopRight.jpg) no-repeat left top;
+	display:inline-block;
+	width:92px;
+	height:61px;
+}
+
+a#avs:HOVER {
+	background-position: left bottom;
+}
+
+/* ===== Site Management ===== */
+#mainSiteManagementContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:350px;
+	background-color:white;
+}
+
+#mainVerifyAccessContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:420px;
+	background-color:white;
+}
+
+#mainPlanManagementContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:1975px;
+	background-color:white;
+}
+
+#mainRelatedPlansContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:600px;
+	background-color:white;
+}
+
+#mainManagePlanImagesContainer {
+	position:relative;
+	margin:0 auto;
+	width:940px;
+	padding:10px;
+	background-color:white;
+	text-align:left;
+}
+
+H1#sm {
+	font-family:times new roman,times,serif;
+	font-size:24px;
+	color:black;
+	margin-bottom:0px;
+}
+H2#sm {
+	font-family:times new roman,times,serif;
+	font-size:18px;
+	font-variant:small-caps;
+	color:maroon;
+	margin:0 0 20px 0;
+}
+H3.sm {
+	font-family:verdana,arial,sans-serif;;
+	font-size:14px;
+	font-variant:small-caps;
+	color:#900;
+}
+#siteManagementContainer {
+	position:absolute;
+	left:20px;
+	top:0px;
+	padding:0px;
+}
+
+#planManagementContainer {
+	position:absolute;
+	left:10px;
+	top:0px;
+	padding:0px;
+}
+
+.smError {
+	width:500px;
+	background-color:#ffffcc;
+	color:black;
+	font-size:12px;
+	padding:5px;
+	border:thin dashed black;
+	margin-bottom:10px;
+}
+
+.normal {
+	width:500px;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	color:black;
+}
+
+.successMessage {
+	width:500px;
+	background-color:#C8E4C5;
+	color:black;
+	font-size:12px;
+	padding:5px;
+	border:thin dashed black;
+	margin-bottom:10px;
+}
+
+.loadPlanSuccessMessage {
+	width:600px;
+	background-color:#C8E4C5;
+	color:black;
+	font-size:12px;
+	padding:5px;
+	border:thin dashed black;
+	margin-bottom:10px;
+}
+
+.planNavigation {
+	width:850px;
+	background-color:#eee;
+	color:black;
+	font-size:12px;
+	padding:5px;
+	border:thin dashed black;
+	margin-bottom:10px;
+}
+
+.smBreadcrumb {
+	font-family:verdana,arial,sans-serif;
+	font-size:10px;
+	width:500px;
+	color:#666;
+	margin:10px 5px;
+}
+
+.planMainRow {
+	background-color:#4a5b49;
+	color:white;
+	font-weight:bold;
+	height:30px;
+}
+
+.planSubRow {
+	background-color:#caccbb;
+	color:black;
+	font-weight:bold;
+	height:30px;
+}
+
+.planDataRow {
+	background-color:#e6ebe7;
+	color:black;
+	height:25px;
+}
+
+.smNormal {
+	width:900px;
+	font-family:verdana,arial,sans-serif;
+	font-size:12px;
+	color:black;
+}
+
+.deletePlan {
+	color:black;
+	font-size:12px;
+	margin:20px 10px;
+}
+
+/* ===== Detailed Plan Page ===== */
+#dpTopContentContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:448px;
+	background-color:white;
+}
+
+#planPhotoAnimationContainer {
+	position:absolute;
+	left:205px;
+	top:0px;
+	padding-top:10px;
+	background-color:#caccbb;
+	height:428px;
+	width:558px;
+}
+
+#planTitle {
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0 0 5px 0;
+	text-align:center;
+	height:21px;
+}
+
+#planPhotoAnimation {
+	margin: 10px;
+	width:538px;
+	height:393px;
+	background-color:#caccbb;
+	text-align:center;
+}
+
+#highLevelPlanInfo {
+	position:absolute;
+	left:10px;
+	top:0px;
+	width:164px;
+	height:418px;
+	text-align:left;
+	min-height:418px;
+	background-color:#caccbb;
+	padding:10px;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:black;
+}
+
+#mediaLinks {
+	float:left;
+	margin-top:20px;
+}
+
+#mediaLinkList {
+	margin-top:5px;	
+}
+
+#highLevelPlanInfo #planTitle {
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+	border-bottom:1px solid black;
+	height:26px;
+}
+
+#highLevelPlanInfo #planTitle2Lines {
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0 0 5px 0;
+	text-align:center;
+	height:40px;
+	border-bottom:1px solid black;
+}
+
+#highLevelPlanInfo #planNumber {
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	height:26px;
+	margin:10px 0;
+}
+
+#highLevelPlanInfo .planSpecTitle {
+	float:left;
+	width:80px;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+	color:black;
+}
+#highLevelPlanInfo .planSpecValue {
+	float:right;
+	width:80px;
+	text-align:right;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:black;
+}
+#highLevelPlanInfo .planSpecValueAlt {
+	float:right;
+	width:80px;
+	text-align:right;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:black;
+	padding-top:5px;
+}
+
+#previousNextChatContainer {
+	position:absolute;
+	right:10px;
+	top:0px;
+	height:438px;
+	text-align:center;
+	min-height:438px;
+	width:177px;
+	background-color:#caccbb;
+}
+
+#previousNextContainer {
+	height:192px;
+	width:157px;
+	padding-left:10px;
+	padding-top:70px;
+}
+
+#detailedPlanChat {
+	position:relative;
+	background-color:white;
+	width:177px;	
+	height:193px;
+}
+
+#spacer {
+	width:177px;
+	height:10px;
+	background-color:white;
+}
+
+#dpRow2ContainerAlt {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:160px;
+	background-color:white;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+}
+
+#dpRow2Container {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:25px;
+	background-color:white;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:10px;
+}
+
+#planImageCopyright {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:25px;
+	background-color:white;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:10px;
+}
+
+#planDescription {
+	position:relative;
+	margin:0 auto;
+	width:940px;
+	background-color:white;
+	text-align:justify;
+	padding:0 10px 10px 10px;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+}
+
+/*
+#planImageCopyright {
+	position:absolute;
+	left:10px;
+	top:0px;
+	width:164px;
+	height:140px;
+	text-align:left;
+	min-height:140px;
+	padding:0 10px 10px 10px;
+	font-size:11px;
+	font-weight:normal;
+	color:black;
+}
+
+#planDescription {
+	position:absolute;
+	left:205px;
+	top:0px;
+	background-color:white;
+	height:140px;
+	text-align:left;
+	width:558px;
+}
+*/
+
+.dpFloorPlanContainer {
+	position:relative;
+	text-align:center;
+	margin:0 auto;
+	padding:10px 0 15px 0;
+	width:960px;
+	background-color:white;
+	color:black;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+}
+
+.planNavigationContainer {
+	position:relative;
+	margin:0 auto;
+	padding:0;
+	width:960px;
+	height:44px;
+	background-color:white;
+}
+
+.planNavigationBar {
+	position:absolute;
+	left:10px;
+	top:0px;
+	width:941px;
+	height:44px;
+	color:white;
+	font-size:12px;
+	background-image:URL(/assets/images/greenBar.jpg);
+}
+
+.planNavigationSpacer {
+	height:7px;
+	width:941px;
+}
+
+.planNavigationElement {
+	float:left;
+	top:7px;
+	height:33px;
+	width:101.5px;
+	font-weight:bold;
+	text-align:center;
+	border-right:thin solid white;
+}
+
+#savedPlansNav {
+	float:left;
+	top:7px;
+	height:33px;
+	width:110px;
+	font-weight:bold;
+	text-align:center;
+	border-right:thin solid white;
+}
+
+#reversePlanNav {
+	float:left;
+	top:7px;
+	height:33px;
+	width:105.5px;
+	font-weight:bold;
+	text-align:center;
+}
+
+#similarPlansTitleContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:54px;
+	background-color:white;
+}
+
+#similarPlansTitleBar {
+	position:absolute;
+	left:10px;
+	top:0px;
+	text-align:center;
+	width:941px;
+	height:44px;
+	color:white;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:uppercase;
+	background-image:URL(/assets/images/greenBar.jpg);
+}
+
+#similarPlansTitleBarContent {
+	position:relative;
+	margin-top:14px;
+	width:941px;
+}
+
+#similarPlansContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:320px;
+	background-color:white;
+}
+
+#similarPlansContentContainer {
+	position:absolute;
+	width:929px;
+	height:300px;
+	top:0px;
+	left:10px;
+	padding:0px 10px 10px 2px;
+	background-color:#caccbb;
+}
+
+#planDetailsTitleContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:54px;
+	background-color:white;
+}
+
+#planDetailsTitleBar {
+	position:absolute;
+	left:10px;
+	top:0px;
+	text-align:center;
+	width:941px;
+	height:44px;
+	color:white;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:uppercase;
+	background-image:URL(/assets/images/greenBar.jpg);
+}
+
+#planDetailsTitleBarContent {
+	position:relative;
+	margin-top:14px;
+	width:941px;
+}
+
+#planDetailsContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:380px;
+	background-color:white;
+}
+
+#planDetailsContentContainer {
+	position:absolute;
+	width:921px;
+	height:355px;
+	top:0px;
+	left:10px;
+	padding:5px 10px 10px 10px;
+	background-color:#caccbb;
+	text-align:left;
+}
+
+.planDetailsContent {
+	float:left;
+	width:178px;
+	color:black;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+	line-height:20px;
+}
+
+#planDetailsContentCol1 {
+	float:left;
+	width:635px;
+	color:black;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+	line-height:20px;
+}
+
+/*
+#planDetailsContentCol2 {
+	float:left;
+	width:130px;
+	color:black;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+	line-height:20px;
+	margin-right:20px;
+}
+
+#planDetailsContentCol3 {
+	float:left;
+	width:160px;
+	color:black;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+	line-height:20px;
+	margin-right:20px;
+}
+*/
+
+.planDetailsContentCol4 {
+	float:left;
+	width:120px;
+	color:black;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+	line-height:20px;
+	margin-right:0px;
+	margin-left:35px;
+}
+
+#planDetailsContentCol5 {
+	float:left;
+	width:260px;
+	color:black;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+	line-height:20px;
+}
+
+#planDetailsContentCol5MSIE6 {
+	float:left;
+	width:260px;
+	color:black;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+	line-height:20px;
+	margin-left:30px;
+}
+
+.planDetailsContentLeft {
+	float:left;	
+}
+
+.planDetailsContentRight {
+	float:right;	
+	text-align:right;
+}
+
+.descriptionHeading {
+	line-height:26px;
+	font-family:'Brush Script MT',arial,sans-serif;
+	font-size: 32px;
+	font-weight:bold;
+}
+
+.prev {
+	display:inline-block;	
+}
+
+.carousel {
+	width:910px;
+	height:100px;
+	text-align:center;
+}
+
+/* ==== Plan Pricing ===== */
+#planPricingTitleContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:54px;
+	background-color:white;
+}
+
+#planPricingTitleBar {
+	position:absolute;
+	left:10px;
+	top:0px;
+	text-align:center;
+	width:941px;
+	height:44px;
+	color:white;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:uppercase;
+	background-image:URL(/assets/images/greenBar.jpg);
+}
+
+#planPricingTitleBarContent {
+	position:relative;
+	margin-top:14px;
+	width:941px;
+}
+
+#emptyPlanPricingContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:50px;
+	background-color:white;
+}
+
+#emptyPlanPricingContentContainer {
+	position:absolute;
+	width:921px;
+	height:20px;
+	top:0px;
+	left:10px;
+	padding:10px;
+	background-color:#caccbb;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#planPricingContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:295px;
+	background-color:white;
+}
+
+#planPricingContentContainer {
+	position:absolute;
+	width:921px;
+	height:265px;
+	top:0px;
+	left:10px;
+	padding:10px;
+	background-color:#caccbb;
+	text-align:left;
+	font-size:12px;
+}
+
+.planPricingLeftContent {
+	float:left;
+	width:375px;
+}
+
+.planPricingRightContent {
+	float:left;
+	width:525px;
+}
+
+.planPricingLabel {
+	float:left;
+	width:275px;
+	margin-top:10px;
+}
+
+.planPricingValue {
+	float:left;
+	width:100px;
+	margin-top:10px;
+}
+
+.planPricingValue2 {
+	float:left;
+	width:250px;
+	margin-top:10px;
+}
+
+.planPricingLabel2 {
+	float:left;
+	width:110px;
+	margin-top:10px;
+}
+
+.planPackages {
+	font-size:14px;
+	font-weight:bold;
+}
+
+#planPricingZipCode {
+	font-size:11px;
+	font-weight:bold;
+	margin-bottom:20px;
+	border:thin solid gray;
+	padding:5px;
+	width:390px;
+	color:black;
+}
+
+/* ===== Plan Pricing - New Layout ===== */
+#planPackagesContainer {
+	position:relative;
+	margin:0 auto;
+	width:940px;
+	height:565px;
+	padding:0px 10px 10px 10px;
+	background-color:white;
+}
+
+#planPackagesContentContainer {
+	position:absolute;
+	width:921px;
+	height:545px;
+	top:0px;
+	left:10px;
+	padding:10px;
+	background-color:#caccbb;
+	text-align:left;
+	font-size:12px;
+}
+
+#planPackagesContainer2014 {
+	position:relative;
+	margin:0 auto;
+	width:940px;
+	height:495px;
+	padding:0px 10px 10px 10px;
+	background-color:white;
+}
+
+#planPackagesContentContainer2014 {
+	position:absolute;
+	width:921px;
+	height:475px;
+	top:0px;
+	left:10px;
+	padding:10px;
+	background-color:#caccbb;
+	text-align:left;
+	font-size:12px;
+}
+
+
+#planPackagesContainer2017 {
+	position:relative;
+	margin:0 auto;
+	width:940px;
+	height:260px;
+	padding:0px 10px 10px 10px;
+	background-color:white;
+}
+
+#planPackagesContentContainer2017 {
+	position:absolute;
+	width:921px;
+	height:240px;
+	top:0px;
+	left:10px;
+	padding:10px;
+	background-color:#caccbb;
+	text-align:left;
+	font-size:12px;
+}
+
+#waStatePlanPackagesContainer {
+	position:relative;
+	margin:0 auto;
+	width:940px;
+	height:295px;
+	padding:0px 10px 10px 10px;
+	background-color:white;
+}
+
+#waStatePlanPackagesContentContainer {
+	position:absolute;
+	width:921px;
+	height:275px;
+	top:0px;
+	left:10px;
+	padding:10px;
+	background-color:#caccbb;
+	text-align:left;
+	font-size:12px;
+}
+
+#planOptionsContainer, #designServicesOptionsContainer {
+	position:relative;
+	margin:0 auto;
+	width:940px;
+	padding:0px 10px 10px 10px;
+	background-color:white;
+}
+
+#planOptionsContentContainer, #designServicesContentContainer {
+	position:relative;
+	width:920px;
+	padding:10px;
+	background-color:#caccbb;
+	text-align:left;
+	font-size:12px;
+}
+
+#realtorProductsContainer {
+	position:relative;
+	margin:0 auto;
+	width:940px;
+	height:140px;
+	padding:0px 10px 10px 10px;
+	background-color:white;
+}
+
+#realtorProductsContentContainer {
+	position:relative;
+	width:921px;
+	height:120px;
+	padding:10px;
+	background-color:#caccbb;
+	text-align:left;
+	font-size:12px;
+}
+
+.packageContents {
+	position:relative;
+	width:921px;
+	margin:10px 0;
+	border-bottom:1px solid black;
+}
+
+.packageContentsNoLine {
+	position:relative;
+	width:921px;
+	margin:10px 0;
+}
+
+.packageGrouping {
+	width:921px;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.itemLabel {
+	float:left;
+	font-weight:bold;
+}
+
+.itemPrice {
+	float:right;
+	font-weight:bold;
+}
+
+.itemDescription {
+	padding-bottom:5px;	
+}
+
+#planPackageTitle {
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+.packageContentTitle {
+	float:left;
+	font-weight:bold;
+}
+
+.packageContentPrice {
+	float:right;
+	font-weight:bold;
+}
+
+.packageContentDescription {
+	clear:both;
+	width:901px;
+}
+
+/* ===== Copyright Information ===== */
+#copyrightMainContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:1255px;
+	background-color:white;
+}
+
+#copyrightContainer {
+	position:absolute;
+	left:205px;
+	top:0px;
+	padding:0px;
+	width:557px;
+	text-align:justify;
+}
+
+#buildingProductsCI {
+	width:178px;
+	height:736px;
+	background-color:#caccbb;
+	margin:10px 0;
+	padding:10px 0 0 0 ;
+}
+
+#buildingProductsCI22 {
+	width:178px;
+	height:797px;
+	background-color:#caccbb;
+	margin:10px 0;
+	padding:10px 0 0 0 ;
+}
+
+#buildingProductsCIStandard {
+	width:178px;
+	height:710px;
+	background-color:#caccbb;
+	margin:10px 0;
+	padding:10px 0 0 0 ;
+}
+
+#buildingProductsAPS {
+	width:178px;
+	height:1039px;
+	background-color:#caccbb;
+	margin:10px 0;
+	padding:10px 0 0 0 ;
+}
+
+
+ul.ci {
+	margin:20px 0 0 20px;
+	padding:0;
+}
+
+li.ci {
+	margin:10px 0 0 0;
+	padding:0;
+}
+
+/* ===== Building Products ===== */
+#buildingProductsMainContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:1720px;
+	background-color:white;
+}
+
+#buildingProductsMainContainer22 {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:1900px;
+	background-color:white;
+}
+
+#buildingProductsContainer {
+	position:absolute;
+	left:205px;
+	top:0px;
+	padding:0px;
+	width:557px;
+	text-align:justify;
+}
+
+#buildingProductsBP {
+	width:178px;
+	height:1175px;
+	background-color:#caccbb;
+	margin:10px 0;
+	padding:10px 0 0 0 ;
+}
+
+/* ===== Plan Search Results Page ===== */
+#planSearchResultsContainer {
+	position:relative;
+	padding:0 10px 10px 10px;
+	margin:0 auto;
+	background-color:white;
+	width:940px;
+}
+
+#planSearchResultsLeftColumn {
+	float:left;
+	background-color:#caccbb;
+	width:184px;
+}
+
+#planSearchResultsCenterColumn {
+	float:left;
+	background-color:white;
+	width:557px;
+	margin:0 10px;
+	height:100px;
+}
+
+#planSearchResultsRightColumn {
+	float:left;
+	width:177px;
+	background-color:#caccbb;
+}
+
+#whiteSpacer {
+	background-color:white;
+	height:10px;
+}
+
+#planStyles {
+	padding:0 10px 10px 10px;
+	font-size:12px;
+	text-align:left;
+}
+
+.planSpecItemContainer {
+	font-size:12px;
+}
+
+.planSpecItemContainer2 {
+	font-size:12px;
+	width:150px;
+}
+
+
+.planSpecViewPlan {
+	margin:10px 0 0 0;
+	font-size:12px;
+}
+
+A.planSearch {
+	text-decoration:none;
+	font-weight:normal;
+	color:black;
+}
+
+A.planSearch:link, A.planSearch:visited {
+	text-decoration:none;
+	font-weight:normal;
+	color:black;
+}
+
+A.planSearch:hover, A.planSearch:active {
+	text-decoration:none;
+	font-weight:normal;
+	color:#06C;	
+}
+
+.planDetailedContainer {
+	width:537px;
+	height:277px;
+	margin-top:10px;
+	position:relative;
+	padding:10px;
+	background-color:#caccbb;	
+}
+
+.PlanGalleryContainer {
+	float:left;
+	color:black;
+	background-color:#caccbb;
+	width:170px;
+	padding:5px 4.33px 5px 4.33px;
+	height:301px;
+	margin:10px 10px 0 0;
+}
+
+.PlanGalleryContainerRight {
+	float:left;
+	color:black;
+	background-color:#caccbb;
+	padding:5px 4.33px 5px 5px;
+	width:170px;
+	height:301px;
+	margin:10px 0 0 0;
+}
+
+.planSearchResultsNavigation {
+	width:557px;
+	position:relative;
+	height:20px;
+	font-size:12px;
+	text-align:left;
+	margin-bottom:10px;
+}
+
+.planSearchResultCount {
+	margin-top:10px;
+	float:left;
+}
+
+.searchResultsPaging {
+	float:right;
+	height:12px;
+	padding:0;
+	margin:0;
+}
+
+.searchResultsPagingAlt {
+	float:right;
+	height:12px;
+	padding:0;
+	margin:5px 0 0 0;
+}
+
+.paging {
+	text-decoration:none;
+	color:black;
+}
+
+.paging a:link, .paging a:visited {
+	text-decoration:none;
+	font-weight:normal;
+	color:black;
+}
+
+.paging a:hover, .paging a:active {
+	text-decoration:none;
+	font-weight:normal;
+	color:black;
+}
+
+.planSearchResultsOptions {
+	width:557px;
+	position:relative;
+	height:60px;
+	font-size:12px;
+	text-align:left;
+	margin-top:0px;
+}
+
+.planSearchResultsOptions2 {
+	width:557px;
+	position:relative;
+	height:95px;
+	font-size:12px;
+	text-align:left;
+	margin-top:0px;
+}
+
+.planSort {
+	float:left;	
+	padding-top:20px;
+	width:150px;
+}
+
+.galleryViewNav {
+	float:left;	
+	text-align:center;
+	margin-left:65px;
+}
+
+.detailViewNav {
+	float:left;	
+	text-align:center;
+	margin-left:65px;
+}
+
+.galleryViewNavAPS {
+	float:left;	
+	text-align:center;
+	width:60px;
+	margin-left:45px;
+}
+
+.detailViewNavAPS {
+	float:left;	
+	text-align:center;
+	width:60px;
+	margin-left:45px;
+}
+
+.plansPerPageOption {
+	float:right;	
+	padding-top:20px;
+}
+
+/* ===== Quick Search ===== */
+#quickSearchContainer {
+	background-image:url(/assets/images/QuickSearch.jpg);
+	width:184px;
+	height:488px;
+	text-align:left;
+	padding:0;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:black;
+}
+
+#qsTop {
+	position:absolute;
+	top:0;
+	left:0;
+	padding-left:92px;
+	width:184px;
+	height:47px;
+}
+
+#qsTop2 {
+	padding-left:92px;
+	height:47px;
+}
+
+#qsContainer {
+	position:absolute;
+	top:47px;
+	padding:5px;
+}
+h1.quickSearch {
+	font-size:12px;
+	margin-bottom:0px;
+	color:white;
+}				
+h1.quickSearch2 {
+	font-size:12px;
+	text-decoration:underline;
+	margin-top:25px;
+	margin-bottom:0px;
+	color:white;
+	padding-left:15px;
+}
+h1.quickSearch3 {
+	font-size:12px;
+	margin-bottom:0px;
+	margin-top:10px;
+	color:white;
+}
+.quickSearchLeft {
+	float:left;
+	width:87px;
+}
+
+.quickSearchRight {
+	float:right;
+	width:87px;
+}
+
+#qsPlanCount {
+	text-align:center;
+	font-size:14px;
+	margin-top:10px;
+	color:white;
+}
+
+#qsPlanSearchSubmit {
+	text-align:center;
+	font-size:14px;
+	margin-top:10px;
+	color:white;
+}
+
+A.qs:link, A.qs:visited {
+	text-decoration:none;
+	font-weight:normal;
+	color:white;
+}
+
+A.qs:hover, A.qs:active {
+	text-decoration:none;
+	font-weight:normal;
+	color:#cf5535;	
+}
+#qs {
+	background-image:url(/assets/images/QuickSearch.jpg);
+	position:absolute;
+	left:10px;
+	top:0px;
+	width:184px;
+	height:488px;
+	text-align:left;
+	min-height:488px;
+	padding:0;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:black;
+}
+/* ==== CF-AutoSuggest YUI Highlight Styles ===== */
+div.autosuggestcontainer li.yui-ac-highlight
+	{
+		background:#c9ccb9;
+	}
+
+div.autosuggestcontainer li.yui-ac-prehighlight
+{
+	background:#c9ccb9;
+}
+
+div.autosuggestcontainer 
+{	
+	position:absolute;
+	top:1.5em;
+	width:173px;	
+}
+
+/* ===== Plan Packages ===== */
+#planPackagesMainContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:1315px;
+	background-color:white;
+}
+
+#buildingProductsPPI {
+	width:178px;
+	height:770px;
+	background-color:#caccbb;
+	margin:10px 0;
+	padding:10px 0 0 0 ;
+}
+
+/* ===== Site Map ===== */
+A.blackLink {
+	text-decoration:none;
+	font-weight:normal;
+	color:black;
+}
+
+A.blackLink:link, A.blackLink:visited {
+	text-decoration:none;
+	font-weight:normal;
+	color:#000;
+}
+
+A.blackLink:hover, A.blackLink:active {
+	text-decoration:none;
+	font-weight:normal;
+	color:#06C;	
+}
+
+/* ===== Realtor Products ===== */
+.productTitle {
+	font-weight:bold;
+	float:left;
+}
+
+.productPrice {
+	font-weight:bold;
+	float:right;
+}
+
+.productDescription {
+	position:relative;
+	margin-bottom:20px;
+}
+
+/* ===== Contact Us Form ===== */
+.contactUsFormField {
+	padding:10px;
+	background-color:#e6ebe7;
+	margin-top:10px;
+}
+
+.contactUsFormField .heading {
+	float:left;
+	width:200px;
+}
+
+.contactUsFormField .field {
+	float:left;
+}
+
+#submitSuccessMessage {
+	width:535px;
+	background-color:#ccffcc;
+	color:black;
+	font-size:12px;
+	padding:10px;
+	border:thin dashed black;
+	text-align:left;
+	margin:20px 0;
+}
+
+#submitNoteMessage {
+	width:535px;
+	background-color:#eeeeee;
+	color:black;
+	font-size:12px;
+	padding:10px;
+	border:thin dashed black;
+	text-align:left;
+	margin:20px 0;
+}
+
+#submitErrorMessage {
+	width:535px;
+	background-color:#E7C9C9;
+	color:black;
+	font-size:12px;
+	padding:10px;
+	border:thin dashed black;
+	text-align:left;
+	margin:20px 0;
+}
+
+#youTubePageContainer {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	height:1557px;
+	background-color:white;
+	text-align:left;
+}
+
+#youTubeContentContainer {
+	padding:20px;	
+}
+
+#adBlockerNote {
+	background-color:#EAFBEA;
+	border-radius:15px;
+	padding:10px;
+}

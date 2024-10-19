@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+	<album title="CornerStone Designs/Architects Northwest Home Plans" description="Gallery of home plans" lgPath="assets/animationImages/large/" tnPath="assets/animationImages/thumbs/" tn="assets/animationImages/thumbs/SlopingLotUphillPlans.jpg">
+		<img src="SlopingLotUphillPlans.jpg" link="/plans/planSearchResults.cfm?Id=53" target="_self" />
+		<img src="LuxuryHomeDesigns.jpg" link="/plans/planSearchResults.cfm?Id=48" target="_self" />
+		<img src="AwardWinningDesigns.jpg" link="/plans/planSearchResults.cfm?Id=1" target="_self" />
+		<img src="CoveredPorchHouseDesigns.jpg" link="/plans/planSearchResults.cfm?Id=42" target="_self" />
+		<img src="GreatRoomFloorPlans.jpg" link="/plans/planSearchResults.cfm?Id=47" target="_self" />
+		<img src="AffordableHomeDesigns.jpg" link="/plans/planSearchResults.cfm?Id=40" target="_self" />
+		<img src="NarrowLotHousePlans.jpg" link="/plans/planSearchResults.cfm?Id=50" target="_self" />
+		<img src="GarageAndAccessoryPlans.jpg" link="/plans/planSearchResults.cfm?Id=3" target="_self" />
+	</album>
+</gallery>

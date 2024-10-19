@@ -1,0 +1,144 @@
+/* HORIZONTAL NAVIGATION BAR
+/////////////////////////////////////*/
+
+ul#navigationplansubnavigation {	
+	width:941px;
+	list-style:none;
+	height:44px;
+	margin:0;
+	padding:0;
+}
+
+ul#navigationplansubnavigation li {
+	display:inline
+}
+
+ul#navigationplansubnavigation li a {
+	height:44px;
+	float:left;
+	text-indent:-9999px;
+	text-decoration:none
+}
+
+ul#navigationplansubnavigation  li a span {
+	float:left;
+	display:block
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-1 a {
+	width:91px;
+	background:url(/assets/images/PlanSubNavigation.gif) no-repeat 0px 0
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-1 a:active,
+ul#navigationplansubnavigation li#navigationplansubnavigation-1 a:hover {
+	background-position:0px -44px
+}
+ul#navigationplansubnavigation li#navigationplansubnavigation-1 a.current {
+	background-position:0px 0px -44px
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-2 a {
+	width:93px;
+	background:url(/assets/images/PlanSubNavigation.gif) no-repeat -91px 0
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-2 a:active,
+ul#navigationplansubnavigation li#navigationplansubnavigation-2 a:hover {
+	background-position:-91px -44px
+}
+ul#navigationplansubnavigation li#navigationplansubnavigation-2 a.current {
+	background-position:-91px -91px -44px
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-3 a {
+	width:107px;
+	background:url(/assets/images/PlanSubNavigation.gif) no-repeat -184px 0
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-3 a:active,
+ul#navigationplansubnavigation li#navigationplansubnavigation-3 a:hover {
+	background-position:-184px -44px
+}
+ul#navigationplansubnavigation li#navigationplansubnavigation-3 a.current {
+	background-position:-184px -184px -44px
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-4 a {
+	width:133px;
+	background:url(/assets/images/PlanSubNavigation.gif) no-repeat -291px 0
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-4 a:active,
+ul#navigationplansubnavigation li#navigationplansubnavigation-4 a:hover {
+	background-position:-291px -44px
+}
+ul#navigationplansubnavigation li#navigationplansubnavigation-4 a.current {
+	background-position:-291px -291px -44px
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-5 a {
+	width:118px;
+	background:url(/assets/images/PlanSubNavigation.gif) no-repeat -424px 0
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-5 a:active,
+ul#navigationplansubnavigation li#navigationplansubnavigation-5 a:hover {
+	background-position:-424px -44px
+}
+ul#navigationplansubnavigation li#navigationplansubnavigation-5 a.current {
+	background-position:-424px -424px -44px
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-6 a {
+	width:92px;
+	background:url(/assets/images/PlanSubNavigation.gif) no-repeat -542px 0
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-6 a:active,
+ul#navigationplansubnavigation li#navigationplansubnavigation-6 a:hover {
+	background-position:-542px -44px
+}
+ul#navigationplansubnavigation li#navigationplansubnavigation-6 a.current {
+	background-position:-542px -542px -44px
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-7 a {
+	width:91px;
+	background:url(/assets/images/PlanSubNavigation.gif) no-repeat -634px 0
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-7 a:active,
+ul#navigationplansubnavigation li#navigationplansubnavigation-7 a:hover {
+	background-position:-634px -44px
+}
+ul#navigationplansubnavigation li#navigationplansubnavigation-7 a.current {
+	background-position:-634px -634px -44px
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-8 a {
+	width:91px;
+	background:url(/assets/images/PlanSubNavigation.gif) no-repeat -725px 0
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-8 a:active,
+ul#navigationplansubnavigation li#navigationplansubnavigation-8 a:hover {
+	background-position:-725px -44px
+}
+ul#navigationplansubnavigation li#navigationplansubnavigation-8 a.current {
+	background-position:-725px -725px -44px
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-9 a {
+	width:125px;
+	background:url(/assets/images/PlanSubNavigation.gif) no-repeat -816px 0
+}
+
+ul#navigationplansubnavigation li#navigationplansubnavigation-9 a:active,
+ul#navigationplansubnavigation li#navigationplansubnavigation-9 a:hover {
+	background-position:-816px -44px
+}
+ul#navigationplansubnavigation li#navigationplansubnavigation-9 a.current {
+	background-position:-816px -816px -44px
+}
+

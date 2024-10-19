@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Stylesheet for CornerStoneDesigns.com and ArchitectsNW.com
+ * version 1.0
+ * Created by Leon O'Daniel - O'Daniel Designs
+ */
+
+/* ===== Global Styles ===== */
+html,  
+body {
+	height: 100%;
+	background:URL(/assets/images/HomePageBack.jpg) #4e5656 no-repeat;
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family:arial,"Century Gothic","Trebuchet MS",verdana,sans-serif;
+	font-size:14px;
+	color:black;
+} 
+
+/* ===== Top and Bottom Spacers ===== */
+#topSpacer {
+	position:relative;
+	margin:0 auto;
+	height:10px;
+	width:960px;
+}
+
+#bottomSpacer {
+	position:relative;
+	margin:0 auto;
+	height:10px;
+	width:960px;
+}
+

@@ -1,0 +1,14 @@
+Tuesday, January 3, 2012|6:44:28 PM PST|http://intermedia.net/createAccount/default.cfm?<script>cross_site_scripting.nasl</script>||ScriptProtect error replacing insecure tag in the CGI scope.
+Tuesday, January 3, 2012|6:44:42 PM PST|http://intermedia.net/createAccount/default.cfm?<script>cross_site_scripting.nasl</script>||ScriptProtect error replacing insecure tag in the CGI scope.
+Tuesday, January 3, 2012|6:53:20 PM PST|http://intermedia.net/createAccount/default.cfm?<script>document.cookie=%22testxfpk=901;%22</script>||ScriptProtect error replacing insecure tag in the CGI scope.
+Tuesday, January 3, 2012|6:53:20 PM PST|http://intermedia.net/createAccount/default.cfm?<meta%20http-equiv=Set-Cookie%20content=%22testxfpk=901%22>||ScriptProtect error replacing insecure tag in the CGI scope.
+Friday, March 30, 2012|8:37:00 PM PDT|http://intermedia.net/createAccount/default.cfm?<script>cross_site_scripting.nasl</script>||ScriptProtect error replacing insecure tag in the CGI scope.
+Friday, March 30, 2012|8:37:16 PM PDT|http://intermedia.net/createAccount/default.cfm?<script>cross_site_scripting.nasl</script>||ScriptProtect error replacing insecure tag in the CGI scope.
+Friday, March 30, 2012|8:49:52 PM PDT|http://intermedia.net/createAccount/default.cfm?<script>document.cookie=%22testfgig=1951;%22</script>||ScriptProtect error replacing insecure tag in the CGI scope.
+Friday, March 30, 2012|8:49:53 PM PDT|http://intermedia.net/createAccount/default.cfm?<meta%20http-equiv=Set-Cookie%20content=%22testfgig=1951%22>||ScriptProtect error replacing insecure tag in the CGI scope.
+Sunday, December 30, 2012|8:16:18 PM PST|http://intermedia.net/createAccount/default.cfm?<script>document.cookie=%22testgpij=5979;%22</script>||ScriptProtect error replacing insecure tag in the CGI scope.
+Sunday, December 30, 2012|8:16:19 PM PST|http://intermedia.net/createAccount/default.cfm?<meta%20http-equiv=Set-Cookie%20content=%22testgpij=5979%22>||ScriptProtect error replacing insecure tag in the CGI scope.
+Sunday, December 30, 2012|8:17:55 PM PST|http://intermedia.net/createAccount/default.cfm?<script>document.cookie=%22testqlab=2626;%22</script>||ScriptProtect error replacing insecure tag in the CGI scope.
+Sunday, December 30, 2012|8:17:56 PM PST|http://intermedia.net/createAccount/default.cfm?<meta%20http-equiv=Set-Cookie%20content=%22testqlab=2626%22>||ScriptProtect error replacing insecure tag in the CGI scope.
+Monday, October 24, 2016|2:45:12 AM CDT|http://www.architectsnw.com/createAccount/default.cfm?||Could not find the ColdFusion component or interface cfformprotect.cffpVerify.
+Friday, June 16, 2017|11:13:49 PM CDT|http://www.cornerstonedesigns.com/createAccount/default.cfm?|onSessionStart|Event handler exception.
