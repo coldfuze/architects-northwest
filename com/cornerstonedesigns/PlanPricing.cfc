@@ -163,12 +163,12 @@
 				VARIABLES.TotalArea = VARIABLES.MainFloorSF + VARIABLES.UpperFloorSF + VARIABLES.LowerFloorSF + VARIABLES.ThirdFloorSF;
 				
 				VARIABLES.SingleUseLicense = 2500;
-				if (VARIABLES.TotalArea GTE 2272) {
+				if (VARIABLES.TotalArea > 2272) {
 					VARIABLES.SingleUseLicense = 1.1 * VARIABLES.TotalArea;
 				}
 				
 				VARIABLES.MultiUseLicense = 6250;
-				if (VARIABLES.MultiUseLicense GTE 2272) {
+				if (VARIABLES.TotalArea GTE 2272) {
 					VARIABLES.MultiUseLicense = 2.75 * VARIABLES.TotalArea;
 				}
 				
