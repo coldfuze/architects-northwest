@@ -1,6 +1,6 @@
 <cfcomponent>
 	<cfscript>
-		this.name = "ANW";
+		this.name = "ArchitectsNWOct2024";
 		this.applicationTimeOut = CreateTimeSpan(1,0,0,0);
 		this.sessionManagement = "true";
 		this.sessionTimeOut = CreateTimeSpan(0,12,0,0);
