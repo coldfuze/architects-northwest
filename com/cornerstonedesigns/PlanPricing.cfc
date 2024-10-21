@@ -168,7 +168,7 @@
 				}
 				
 				VARIABLES.MultiUseLicense = 2.75 * VARIABLES.TotalArea;
-				if (VARIABLES.MultiUseLicense LT 5000) {
+				if (VARIABLES.MultiUseLicense LT 2272) {
 					VARIABLES.MultiUseLicense = 6250;
 				}
 				
